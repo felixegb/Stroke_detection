@@ -4,6 +4,7 @@ import traceback
 import logging
 import csv
 
+
 logging.basicConfig(level=logging.INFO)
 
 postgres_host = os.environ.get('POSTGRES_HOST', 'localhost')
